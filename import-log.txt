@@ -1,0 +1,45 @@
+[2025-12-07 20:25:04] ========================================
+[2025-12-07 20:25:04] Altezza Travel Tours Scraper
+[2025-12-07 20:25:04] ========================================
+[2025-12-07 20:25:04] 
+[2025-12-07 20:25:04] Step 1: Fetching tour URLs from sitemap...
+[2025-12-07 20:25:06] Could not fetch sitemap, using predefined URLs
+[2025-12-07 20:25:06] Limited to 10 tours
+[2025-12-07 20:25:06] Step 2: Scraping 10 tours...
+[2025-12-07 20:25:06] 
+[2025-12-07 20:25:06] [1/10] Processing: /tanzania-safari/tours/serengeti-great-migration-ngorongoro-tarangire
+[2025-12-07 20:25:07]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/serengeti-great-migration-ngorongoro-tarangire
+[2025-12-07 20:25:07] 
+[2025-12-07 20:25:07] [2/10] Processing: /tanzania-safari/tours/lake-natron-ol-doinyo-lengai-hike-flamingo-walks
+[2025-12-07 20:25:08]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/lake-natron-ol-doinyo-lengai-hike-flamingo-walks
+[2025-12-07 20:25:08] 
+[2025-12-07 20:25:09] [3/10] Processing: /tanzania-safari/tours/wild-trails-of-tarangire-3-day-safari
+[2025-12-07 20:25:17]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/wild-trails-of-tarangire-3-day-safari
+[2025-12-07 20:25:17] 
+[2025-12-07 20:25:18] [4/10] Processing: /tanzania-safari/tours/migration-calving-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:19]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/migration-calving-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:19] 
+[2025-12-07 20:25:20] [5/10] Processing: /tanzania-safari/tours/luxury-migration-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:21]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/luxury-migration-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:21] 
+[2025-12-07 20:25:21] [6/10] Processing: /tanzania-safari/tours/serengeti-cheetah-safari-and-tarangire-ngorongoro
+[2025-12-07 20:25:22]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/serengeti-cheetah-safari-and-tarangire-ngorongoro
+[2025-12-07 20:25:22] 
+[2025-12-07 20:25:23] [7/10] Processing: /tanzania-safari/tours/ngorongoro-day-trip
+[2025-12-07 20:25:24]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/ngorongoro-day-trip
+[2025-12-07 20:25:24] 
+[2025-12-07 20:25:24] [8/10] Processing: /tanzania-safari/tours/lake-natron-ngorongoro-safari
+[2025-12-07 20:25:25]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/lake-natron-ngorongoro-safari
+[2025-12-07 20:25:25] 
+[2025-12-07 20:25:25] [9/10] Processing: /tanzania-safari/tours/crater-world-ngorongoro-empakaai
+[2025-12-07 20:25:26]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tanzania-safari/tours/crater-world-ngorongoro-empakaai
+[2025-12-07 20:25:26] 
+[2025-12-07 20:25:27] [10/10] Processing: /tours/3-days-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:28]   ✗ Error: cURL error 60: SSL certificate problem: unable to get local issuer certificate (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://altezzatravel.com/tours/3-days-safari-tarangire-ngorongoro-serengeti
+[2025-12-07 20:25:28] 
+[2025-12-07 20:25:28] ========================================
+[2025-12-07 20:25:28] Summary:
+[2025-12-07 20:25:28]   Imported: 0
+[2025-12-07 20:25:28]   Skipped: 0
+[2025-12-07 20:25:28]   Errors: 10
+[2025-12-07 20:25:28] ========================================

@@ -1,0 +1,150 @@
+/* Calendar Styles */
+.app-calendar-wrapper {
+  position: relative;
+}
+
+.app-calendar-sidebar {
+  position: relative;
+  background: #fff;
+  border-right: 1px solid #d9dee3;
+}
+
+.app-calendar-content {
+  position: relative;
+  background: #fff;
+}
+
+.app-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: none;
+}
+
+.app-overlay.show {
+  display: block;
+}
+
+.event-sidebar {
+  width: 400px;
+}
+
+.event-form .form-floating {
+  margin-bottom: 1.5rem;
+}
+
+.btn-toggle-sidebar {
+  width: 100%;
+}
+
+.app-calendar-events-filter .form-check {
+  margin-bottom: 1rem;
+}
+
+.inline-calendar {
+  padding: 0.5rem;
+}
+
+/* FullCalendar Customizations */
+.fc {
+  font-family: inherit;
+}
+
+.fc-event {
+  border: none;
+  padding: 2px 4px;
+  cursor: pointer;
+}
+
+.fc-event-title {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+.fc-event-time {
+  font-size: 0.75rem;
+  opacity: 0.9;
+}
+
+.fc-event-status {
+  font-size: 0.625rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.fc-daygrid-event {
+  border-radius: 4px;
+}
+
+.fc-timegrid-event {
+  border-radius: 4px;
+}
+
+.fc-button-primary {
+  background-color: var(--primary-green, #3ea572);
+  border-color: var(--primary-green, #3ea572);
+}
+
+.fc-button-primary:hover {
+  background-color: var(--secondary-green, #2d7a5f);
+  border-color: var(--secondary-green, #2d7a5f);
+}
+
+.fc-button-primary:disabled {
+  background-color: #6c757d;
+  border-color: #6c757d;
+  opacity: 0.6;
+}
+
+.fc-today-button {
+  background-color: var(--primary-green, #3ea572);
+  border-color: var(--primary-green, #3ea572);
+}
+
+.fc-today-button:hover {
+  background-color: var(--secondary-green, #2d7a5f);
+  border-color: var(--secondary-green, #2d7a5f);
+}
+
+.fc-day-today {
+  background-color: rgba(62, 165, 114, 0.1) !important;
+}
+
+.fc-highlight {
+  background-color: rgba(62, 165, 114, 0.2);
+}
+
+/* Responsive */
+@media (max-width: 991.98px) {
+  .app-calendar-sidebar {
+    display: none;
+  }
+  
+  .event-sidebar {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .fc-header-toolbar {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .fc-toolbar-chunk {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+}
+
+
+
+
+
+
